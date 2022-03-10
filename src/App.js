@@ -1,11 +1,10 @@
 import "./App.css";
+import RouteComponent from "./Routes";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
-  );
+    <RouteComponent />
+  )
 }
 
 export default App;

@@ -3,5 +3,9 @@ module.exports = {
   theme: {
     extend: {},
   },
+  fontFamily: {
+    sans: ['sans-serif', 'Pacifico'],
+    nunito: ['Nunito', 'sans-serif'],
+  },
   plugins: [],
 };
