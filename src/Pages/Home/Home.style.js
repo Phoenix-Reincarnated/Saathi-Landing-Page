@@ -1,0 +1,72 @@
+import { makeStyles } from "@mui/styles";
+export const useStyles = makeStyles((theme) => ({
+  container: {
+    overflowX: "hidden",
+  },
+  first: {
+    position: "absolute",
+    width: "33.33%",
+    height: "100%",
+    top: "0%",
+    left: "0%",
+    zIndex: "99",
+    background: "#fff",
+    animation: "$loaderAnimation 0.9s ease-in-out",
+    animationDelay: "0.6s",
+    animationIterationCount: "1",
+    animationFillMode: "forwards",
+  },
+  second: {
+    position: "absolute",
+    width: "33.33%",
+    height: "100%",
+    top: "0%",
+    left: "33.33%",
+    zIndex: "98",
+    background: "#fff",
+    animation: "$loaderAnimation 0.9s ease-in-out",
+    animationDelay: "0.8s",
+    animationIterationCount: "1",
+    animationFillMode: "forwards",
+  },
+  third: {
+    position: "absolute",
+    width: "33.33%",
+    height: "100%",
+    top: "0%",
+    left: "66.66%",
+    zIndex: "98",
+    background: "#fff",
+    animation: "$loaderAnimation 0.9s ease-in-out",
+    animationDelay: "1s",
+    animationIterationCount: "1",
+    animationFillMode: "forwards",
+  },
+
+  "@keyframes loaderAnimation": {
+    from: { height: "100%" },
+    to: { height: "0%" },
+  },
+  fourth: {
+    overflowX: "hidden",
+    position: "absolute",
+    width: "100%",
+    height: "100%",
+    top: "0%",
+    left: "0%",
+    zIndex: "96",
+    background: "#B4F8C8",
+    animation: "$fourthAnimation 0.9s ease-in-out",
+    animationDelay: "1.8s",
+    animationIterationCount: "1",
+    animationFillMode: "forwards",
+  },
+  "@keyframes fourthAnimation": {
+    from: {
+      width: "100%",
+    },
+    to: {
+      width: "0%",
+    },
+  },
+}));

@@ -1,10 +1,15 @@
-import "./App.css";
-import RouteComponent from "./Routes";
+import theme from "./theme";
+import { CssBaseline } from "@mui/material";
+import RouteComponent from "./Routes.js";
+import { ThemeProvider } from "@mui/styles";
 
 function App() {
   return (
-    <RouteComponent />
-  )
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <RouteComponent />
+    </ThemeProvider>
+  );
 }
 
 export default App;
