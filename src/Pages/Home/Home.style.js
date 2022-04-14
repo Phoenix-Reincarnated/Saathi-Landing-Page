@@ -1,8 +1,5 @@
 import { makeStyles } from "@mui/styles";
 export const useStyles = makeStyles((theme) => ({
-  container: {
-    overflowX: "hidden",
-  },
   first: {
     position: "absolute",
     width: "33.33%",
