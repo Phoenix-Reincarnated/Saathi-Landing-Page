@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import HeroSection from '../../Components/HeroSection/HeroSection'
 import { useStyles } from './Home.style'
 
@@ -15,4 +15,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Home
