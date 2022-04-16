@@ -2,7 +2,6 @@ import { Button, Typography, Toolbar } from '@mui/material'
 
 import IconButton from '@mui/material/IconButton'
 import MenuIcon from '@mui/icons-material/Menu'
-import AccountCircleIcon from '@mui/icons-material/AccountCircle'
 import { styled } from '@mui/material/styles'
 
 import { AppBar, useStyles } from '../layouts.style.js'

@@ -45,7 +45,7 @@ export const useStyles = makeStyles((theme) => ({
         }
     },
     gridStyle: {
-        flexGrow: 1, justifyContent: 'center', padding: '4rem 10rem',
+        flexGrow: 1, justifyContent: 'center', padding: '2rem 10rem', paddingBottom: '5rem',
         [theme.breakpoints.down('sm')]: {
             padding: '2rem 0rem'
 
