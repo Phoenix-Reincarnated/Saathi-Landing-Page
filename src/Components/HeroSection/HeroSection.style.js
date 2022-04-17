@@ -51,10 +51,39 @@ export const useStyles = makeStyles((theme) => ({
 
         }
     },
+    gridStyle1: {
+        flexGrow: 1, justifyContent: 'center', padding: '1.5rem 10rem',
+        [theme.breakpoints.down('sm')]: {
+            padding: '2rem 0rem'
+
+        }
+    },
     heroImageStyle: {
         width: 480,
         [theme.breakpoints.down('sm')]: {
             width: 370,
+
+        }
+    },
+    heroImageStyle1: {
+        width: 480,
+        marginLeft: '4rem',
+        [theme.breakpoints.down('sm')]: {
+            width: 370,
+            marginLeft: '0rem',
+
+        }
+    },
+    title: {
+        flexGrow: 1,
+        marginLeft: '2rem'
+    },
+    footerStyle: {
+        textAlign: 'center',
+        lineHeight: '1.8rem',
+        padding: '1rem 12rem',
+        [theme.breakpoints.down('sm')]: {
+            padding: '2rem 1rem',
 
         }
     }

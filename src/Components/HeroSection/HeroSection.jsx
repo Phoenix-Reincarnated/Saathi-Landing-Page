@@ -30,8 +30,7 @@ const HeroSection = () => {
           <div
             style={{
               fontSize: '46px',
-              fontFamily: 'inherit',
-              fontWeight: '550',
+              fontWeight: '600',
               lineHeight: '4rem',
             }}
           >

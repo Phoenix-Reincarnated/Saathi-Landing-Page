@@ -15,7 +15,7 @@ const TechBucket = () => {
       <div
         style={{
           fontSize: '38px',
-          fontFamily: 'inherit',
+          fontWeight: '600',
           lineHeight: '4rem',
           textAlign: 'center',
           paddingTop: '2rem',
